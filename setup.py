@@ -43,7 +43,7 @@ class TempWorkDir:
         os.chdir(self.original)
 
 
-GENERATOR_DIR = Path('telethon_generator')
+GENERATOR_DIR = Path('telethon_async_generator')
 LIBRARY_DIR = Path('telethon_async')
 
 ERRORS_IN = GENERATOR_DIR / 'data/errors.csv'
